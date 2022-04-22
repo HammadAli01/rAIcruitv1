@@ -1,0 +1,55 @@
+.accordion-button:focus{
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.accordion-button {
+  background: blue;
+  border: none;
+  outline: none;
+  margin-left: 1%;
+  font-weight: bold;
+}
+.accordion-button:not(.collapsed) {
+  
+  outline: none;
+ background-color: transparent;
+ border: none;
+  
+}
+.accordion-button.collapsed{
+  outline: none;
+ background-color: transparent;
+ border: none;
+}
+.newquestioninputfield{
+width: 100%;
+}
+.newquestiondeightage{
+display: inline-block;
+margin-left: 5%;
+}
+.add-question-btn-box{
+display: inline-block;
+margin-left: 15%;
+float: right;
+margin-bottom: 20px;
+margin-right: 25px;
+}
+.add-question-optionremoveButton,.add-question-optionaddbutton{
+
+box-shadow: 0px 4px 12px 0px rgb(0 0 0 / 15%);
+background-color: #007bff;
+border: 0px solid  #007bff;
+border-radius: 20%;
+color: #fff;
+font-weight: bold;
+padding: 8px 8px;
+cursor: pointer;
+margin-right: 10px;
+}
+
+.add-question-optionremoveButton:hover,.add-question-optionaddbutton:hover{
+outline: none;
+background-color: #00c7e6;
+}

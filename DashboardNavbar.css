@@ -1,0 +1,139 @@
+.recruiternavbar .navbar {
+    height: 56px;
+    padding-left: 10px;
+    background-image: linear-gradient(to right,#5da4e6, #5de6de);
+   position: fixed;
+    box-shadow: 0 3px 4px 0 rgb(0 0 0 / 20%), 0 3px 3px -2px rgb(0 0 0 / 14%), 0 1px 8px 0 rgb(0 0 0 / 12%);
+
+    width: 100%;
+    z-index: 5;
+   }
+   .recruiternavbar .container{
+    margin-left: 5px;
+}
+.recruiternavbar .sidebarIcon{
+    color: white !important;
+    font-size: 24px;
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+    stroke-width: 0px;
+    width: 2em;
+    padding-bottom: 3px;
+
+}
+.recruiternavbar .bell-icon{
+    color: white !important;
+        font-size: 24px;
+        padding: 3px;
+        margin: 0px;
+        margin-top: 5px;
+        margin-left: 25px;
+        cursor: pointer;
+        stroke-width: 0px;
+        width: 2em;}
+    
+.recruiternavbar .navbar-brand{
+    position: absolute;
+    margin-left: 10% !important;
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.9rem;
+    line-height: inherit;
+    white-space: nowrap;
+    color: white !important;
+}
+.recruiternavbar .navbar-nav{
+    position: absolute;
+    margin-left: 90%;
+   
+    
+   
+}
+.recruiternavbar  .nav-link{
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    white-space: nowrap;
+    padding: 5px 15px !important;
+    text-transform: uppercase;
+    color: white !important;
+}
+.recruiternavbar .userImg{
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+    margin: auto;
+    display: block;
+    object-fit: cover;
+    cursor: pointer;
+}
+.recruiternavbar .signoutdiv{
+   top: 53px;
+ margin-right: 5%;
+position: fixed;
+margin-left: 73%;
+padding-top: 1%;
+float: right;
+display: inline-block;
+   text-align: center;
+    width: 25%;
+    height: 33%;
+    z-index:16;
+    background-color: #fff;
+    border: 1.1px solid rgba(0,0,0,.12);
+    font-family: Roboto,RobotoDraft,Arial,sans-serif;
+    font-size: 13px;
+    line-height: normal;
+    letter-spacing: normal;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
+    animation: myfirst 0.1s 1;
+}
+@keyframes myfirst {
+    0%   {top: 0px;}
+    25%  {top: 15px;}
+    50%  {top: 30px;}
+    75%  {top: 45px;}
+    100% {top: 53px;}
+}
+.recruiternavbar  .userImgindiv{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin: auto;
+    display: block;
+    object-fit: cover;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.recruiternavbar .spearation-line{
+    margin-top: 5%;
+    margin-bottom: 0.5%;
+}
+.signout-button{
+    float: right;
+    background-color: #f5f5f5;
+    border: 1px solid rgba(0,0,0,.12);
+    border-radius: 2px;
+    position: relative;
+   margin-top: 5px;
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(100, 100, 100);
+    line-height: 28px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    cursor: pointer;
+    margin-right: 4%;
+    font-size: medium;
+}
+.recruiternavbar .signout-button:hover{
+background-color: rgb(228, 228, 228);
+}
